@@ -1,0 +1,543 @@
+ body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        color: #fff;
+        background-image: url(../imagens/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 91%;
+        background-color: rgb(103, 74, 174);   
+}
+header{
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+header img{
+    width: 200px;
+}
+section{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 472px;
+}
+.imagem-esquerda{
+    width: 65%;
+}
+.imagem-esquerda img{
+   width: 100%; 
+}
+.texto-lateral{
+    margin-left: 50px;
+    height: 80%;
+    width: 50%;
+}
+.titulo-texto{
+    width: 90%;
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-bottom: 20px;
+    color: #dddddd;
+}
+
+.conteudo-texto{
+    font-family: 'Open Sans';
+    font-size: 17px;
+    color: #dddddd;
+    margin-bottom: 20px;
+    width: 96%;
+}
+
+.botao-register{
+    width: 190px;
+    height: 50px;
+    font-size: 17px;
+    color: rgb(103, 74, 174);
+    font-family: 'Poppins';
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, .3);
+}
+
+.botao-register:hover{
+    background-color: rgb(232, 130, 232);
+    color: #e6e6e6;
+    font-size: 18px;
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+}
+.icones{
+    
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-top: 60px;
+}
+svg{
+    width: 40px;
+    height: 40px;
+
+}
+
+.link-social-midia{
+
+ margin-right: 15px;
+ border-radius: 100%;
+}
+
+.margem-direita{
+    margin-right: 100px;
+}
+
+.attribution a{
+    color:white;
+}
+
+.facebook-icon:hover{
+    fill: rgb(232, 130, 232);
+}
+
+.instagram-icon:hover{
+    fill: rgb(232, 130, 232);
+}
+
+.twitter-icon:hover{
+    fill: rgb(232, 130, 232);
+}
+
+@media(max-width:1355px) and (min-width:1001px){
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        color: #fff;
+        background-image: url(../imagens/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgb(103, 74, 174);   
+}
+}
+
+@media(max-width:1000px) and (min-width:801px){
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        color: #fff;
+        background-image: url(../imagens/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgb(103, 74, 174);   
+}
+
+.texto-lateral{
+    margin-left: 50px;
+    height: 70%;
+    width: 50%;
+}
+
+.titulo-texto{
+    width: 90%;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color: #dddddd;
+}
+
+.icones{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.margem-direita{
+    margin-right: 0px;
+}
+.attribution{
+    margin-top: 15px;
+}
+}
+
+@media(max-width:800px) and (min-width:656px){
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        color: #fff;
+        background-image: url(../imagens/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgb(103, 74, 174);   
+}
+
+.texto-lateral{
+    margin-left: 50px;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+}
+
+.titulo-texto{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color: #dddddd;
+}
+.conteudo-texto{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #dddddd;
+    margin-bottom: 20px;
+    width: 96%;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.margem-direita{
+    margin-right: 0px;
+}
+.attribution{
+    margin-top: 15px;
+}
+}
+
+
+@media(max-width:655px) and (min-width:601px){
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        color: #fff;
+        background-image: url(../imagens/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgb(103, 74, 174);   
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 472px;
+}
+
+.texto-lateral{
+    margin-left: 0px;
+    height: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-texto{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color: #dddddd;
+}
+.conteudo-texto{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #dddddd;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.margem-direita{
+    margin-right: 0px;
+}
+.attribution{
+    margin-top: 15px;
+}
+}
+
+@media(max-width:600px) and (min-width:501px){
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        color: #fff;
+        background-image: url(../imagens/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgb(103, 74, 174);   
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: auto;
+}
+.imagem-esquerda{
+    width: 85%;
+}
+
+.texto-lateral{
+    margin-left: 0px;
+    height: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-texto{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color: #dddddd;
+}
+.conteudo-texto{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #dddddd;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.margem-direita{
+    margin-right: 0px;
+}
+.attribution{
+    margin-top: 15px;
+}
+}
+
+@media(max-width:500px) and (min-width:376px){
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        color: #fff;
+        background-image: url(../imagens/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgb(103, 74, 174);   
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: auto;
+}
+.imagem-esquerda{
+    width: 85%;
+}
+
+.texto-lateral{
+    margin-left: 0px;
+    height: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-texto{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color: #dddddd;
+}
+.conteudo-texto{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #dddddd;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.botao-register{
+    width: 290px;
+    height: 40px;
+    font-size: 17px;
+    color: rgb(103, 74, 174);
+    font-family: 'Poppins';
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, .3);
+}
+
+.botao-register:hover{
+    background-color: rgb(232, 130, 232);
+    color: #e6e6e6;
+    font-size: 18px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.margem-direita{
+    margin-right: 0px;
+}
+
+.attribution{
+    margin-top: 15px;
+}
+}
+
+@media(max-width:375px){
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        color: #fff;
+        background-image: url(../imagens/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgb(103, 74, 174);   
+}
+
+header{
+    width: 85%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+header img{
+    width: 150px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: auto;
+}
+.imagem-esquerda{
+    width: 90%;
+}
+
+.texto-lateral{
+    margin-left: 0px;
+    height: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-texto{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 15px;
+    color: #dddddd;
+}
+.conteudo-texto{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #dddddd;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.botao-register{
+    width: 290px;
+    height: 40px;
+    font-size: 17px;
+    color: rgb(103, 74, 174);
+    font-family: 'Poppins';
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, .3);
+}
+
+.botao-register:hover{
+    background-color: rgb(232, 130, 232);
+    color: #e6e6e6;
+    font-size: 18px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.margem-direita{
+    margin-right: 0px;
+}
+
+.attribution{
+    margin-top: 15px;
+}
+}
+
